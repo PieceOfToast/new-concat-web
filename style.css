@@ -1,7 +1,10 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar a {
@@ -19,7 +22,6 @@
 }
 
 .dropdown .dropbtn {
-  cursor: pointer;
   font-size: 16px;  
   border: none;
   outline: none;
@@ -30,7 +32,7 @@
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+.navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
@@ -56,6 +58,6 @@
   background-color: #ddd;
 }
 
-.show {
+.dropdown:hover .dropdown-content {
   display: block;
 }
