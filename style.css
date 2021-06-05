@@ -1,8 +1,8 @@
-/*
-body {
+
+/*body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 
 .topnav {
   overflow: hidden;
@@ -10,7 +10,7 @@ body {
 }
 
 .topnav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -27,7 +27,9 @@ body {
   background-color: #04AA6D;
   color: white;
 }
-*/
+
+
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #04AA6D;
@@ -38,15 +40,10 @@ body {
 }
 
 
-
-
-
-
-
 /*drop down part owo
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
+  position: left;/*relative*/
   display: inline-block;
 }
 
