@@ -5,6 +5,7 @@ body {
 .navbar {
   overflow: auto;
   background-color: #FFFFFF;
+  position: relative; /*could be removed */
 }
 
 .navbar a {
