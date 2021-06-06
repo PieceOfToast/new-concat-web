@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-  overflow: auto;
+  overflow: hidden;
   background-color: #FFFFFF;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .dropdown {
   float: right;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .dropdown .dropbtn {
