@@ -66,6 +66,7 @@ body {
     height: 46px;
     overflow: hidden;
     margin-top: 0px;
+    float: left;
 }
 /*divided sections css*/
 * {
