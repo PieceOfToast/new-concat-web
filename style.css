@@ -76,6 +76,7 @@ body {
 .column {
   float: left;
   padding: 100px;
+  margin: 35px;
 }
 
 .left {
