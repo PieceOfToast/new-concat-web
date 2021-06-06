@@ -33,7 +33,7 @@ body {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  position: relative;
+  /*position: relative;*/
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -42,7 +42,7 @@ body {
 
 .dropdown-content {
   display: none;
-  position: fixed;
+  position: absolute;
   background-color: #000000;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
